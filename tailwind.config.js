@@ -7,6 +7,7 @@ export default {
       fontFamily: {
         Montserrat: ["Montserrat", "sans-serif"],
         BodoniModa: ["BodoniModa", "serif"],
+        CormorantGaramond: ["CormorantGaramond", "serif"],
       },
       colors: {
         beige: "#ECE7E1",

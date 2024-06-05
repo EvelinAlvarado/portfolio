@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  @apply transition-colors duration-200;
-}
-
 @font-face {
   font-family: "BodoniModa";
   src: url("./assets/fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf")
@@ -28,6 +24,25 @@
 @font-face {
   font-family: "Montserrat";
   src: url("./assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf")
+    format("truetype");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "CormorantGaramond";
+  src: url("./assets/fonts/CormorantGaramond/CormorantGaramond-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "CormorantGaramond";
+  src: url("./assets/fonts/CormorantGaramond/CormorantGaramond-Medium.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "CormorantGaramond";
+  src: url("./assets/fonts/CormorantGaramond/CormorantGaramond-Italic.ttf")
     format("truetype");
   font-style: italic;
 }

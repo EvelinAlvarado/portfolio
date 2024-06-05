@@ -9,11 +9,13 @@ function App() {
   return (
     <>
       <LanguagesProvider>
-        <Header />
-        <Home />
-        {/* <About />
+        <div className="flex flex-col h-screen">
+          <Header />
+          <Home />
+          {/* <About />
       <Projects />
     <Contacts /> */}
+        </div>
       </LanguagesProvider>
     </>
   );
