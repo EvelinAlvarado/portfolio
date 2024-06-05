@@ -1,19 +1,18 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 import axios from "axios";
-import { languageList } from "../languages";
+import { languageList } from "../languages/index.js";
 
-export const LanguageContext = createContext();
+export const LanguagesContext = createContext();
 
-export const LanguageProvider = ({ children }) => {
+export const LanguagesProvider = ({ children }) => {
   const [language, setLanguage] = useState("en");
   const [translations, setTranslations] = useState(languageList[language]);
 
   useEffect(() => {
     const fetchTranslations = async () => {
       try {
-        const response = await axios.get(
-          `http://localhost:${language === "en" ? 3000 : 4000}/${language}.json`
-        );
+        const response = await axios.get(`src/languages/${language}.json`);
+        console.log(response.data);
         setTranslations(response.data);
       } catch (error) {
         console.error("Error fetching language data: ", error);
@@ -32,6 +31,8 @@ export const LanguageProvider = ({ children }) => {
     toggleLanguage,
   };
   return (
-    <LanguageContext.Provider value={data}>{children}</LanguageContext.Provider>
+    <LanguagesContext.Provider value={data}>
+      {children}
+    </LanguagesContext.Provider>
   );
 };

@@ -1,0 +1,13 @@
+{
+  "home": {
+    "title": "Evelin Alvarado",
+    "subtitle": "Desarrolladora Front-end",
+    "description": "Desarrolladora Front-end enfocada en mejora continua a través de proyectos personales. Comprometida con el perfeccionamiento constante de mis habilidades como programadora.",
+    "about": "Sobre Mí",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "header": {
+    "home": "Inicio"
+  }
+}

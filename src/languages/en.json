@@ -1,0 +1,13 @@
+{
+  "home": {
+    "title": "Evelin Alvarado",
+    "subtitle": "Front-end Developer",
+    "description": "Front-end Developer focused on continuous improvement through personal projects. Committed to constant refinement of my programming skills.",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "header": {
+    "home": "Home"
+  }
+}
