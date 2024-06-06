@@ -12,6 +12,8 @@ export default {
       colors: {
         beige: "#ECE7E1",
         dark: "#1A1818",
+        btnBeige: "#ECE7E1",
+        btnDark: "#1A1818",
       },
     },
   },

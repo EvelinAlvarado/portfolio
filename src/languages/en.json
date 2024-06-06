@@ -1,7 +1,7 @@
 {
   "home": {
     "title": "Evelin Alvarado",
-    "subtitle": "Front-end Developer",
+    "subtitle": "Front-end Developer / Medical Laboratory Scientist (MLS)",
     "description": "Front-end Developer focused on continuous improvement through personal projects. Committed to constant refinement of my programming skills.",
     "about": "About",
     "projects": "Projects",
@@ -9,5 +9,11 @@
   },
   "header": {
     "home": "Home"
+  },
+  "contact": {
+    "title": "Hello.",
+    "description": "Are you looking to hire a Frontend Developer who's committed, to joining your team? Lets get in touch!",
+    "button": "E-mail",
+    "text": "Find me on: "
   }
 }

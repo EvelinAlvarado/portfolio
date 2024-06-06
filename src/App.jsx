@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Projects } from "./pages/Projects";
@@ -9,13 +10,17 @@ function App() {
   return (
     <>
       <LanguagesProvider>
-        <div className="flex flex-col h-screen">
-          <Header />
-          <Home />
-          {/* <About />
-      <Projects />
-    <Contacts /> */}
-        </div>
+        <BrowserRouter>
+          <div className="flex flex-col h-screen">
+            <Header />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/contact" element={<Contacts />} />
+            </Routes>
+          </div>
+        </BrowserRouter>
       </LanguagesProvider>
     </>
   );

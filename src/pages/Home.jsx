@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useLanguage } from "../context/index.js";
 
 export const Home = () => {
@@ -15,16 +16,31 @@ export const Home = () => {
           {translations.home.description}
         </p>
       </main>
-      <nav className="mx-[10%] mt-14">
+      <nav className="mx-[10%] mt-20 mb-8">
         <ul className="leading-none">
-          <li className="text-[15vw] font-CormorantGaramond italic font-medium tracking-tight uppercase hover:text-[17vw] hover:tracking-wide hover:ml-4 cursor-pointer transition-all duration-300 ease-in-out mb-3">
-            {translations.home.about}
+          <li>
+            <Link
+              to="/about"
+              className="text-[16vw] font-CormorantGaramond italic font-medium tracking-tight uppercase hover:text-[17vw] hover:tracking-wide hover:ml-4 cursor-pointer transition-all duration-300 ease-in-out mb-3"
+            >
+              {translations.home.about}
+            </Link>
           </li>
-          <li className="text-[15vw] font-CormorantGaramond italic font-medium tracking-tight uppercase hover:text-[17vw] hover:tracking-wide hover:ml-4 cursor-pointer transition-all duration-300 ease-in-out mb-3">
-            {translations.home.projects}
+          <li>
+            <Link
+              to="/projects"
+              className="text-[16vw] font-CormorantGaramond italic font-medium tracking-tight uppercase hover:text-[17vw] hover:tracking-wide hover:ml-4 cursor-pointer transition-all duration-300 ease-in-out mb-3"
+            >
+              {translations.home.projects}
+            </Link>
           </li>
-          <li className="text-[15vw] font-CormorantGaramond italic font-medium tracking-tight uppercase hover:text-[17vw] hover:tracking-wide hover:ml-4 cursor-pointer transition-all duration-300 ease-in-out">
-            {translations.home.contact}
+          <li>
+            <Link
+              to="/contact"
+              className="text-[16vw] font-CormorantGaramond italic font-medium tracking-tight uppercase hover:text-[17vw] hover:tracking-wide hover:ml-4 cursor-pointer transition-all duration-300 ease-in-out"
+            >
+              {translations.home.contact}
+            </Link>
           </li>
         </ul>
       </nav>
