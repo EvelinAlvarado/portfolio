@@ -9,7 +9,7 @@ export const Contacts = () => {
     <>
       {modalIsOpen ? <EmailModal setModalIsOpen={setModalIsOpen} /> : <></>}
       <div className="mx-[10%]">
-        <h1 className="text-[16vw] font-CormorantGaramond font-medium tracking-tight hover:text-[17vw] hover:tracking-wide mb-3">
+        <h1 className="text-[16vw] font-CormorantGaramond font-medium tracking-tight mb-3">
           {translations.contact.title}
         </h1>
         <div>
@@ -19,7 +19,7 @@ export const Contacts = () => {
 
           <button
             onClick={() => setModalIsOpen(true)}
-            className="text-base tracking-[1px] font-CormorantGaramond bg-dark text-beige dark:bg-beige dark:text-dark py-2 px-4 rounded-full hover:px-[30px] my-7"
+            className="text-base tracking-[1px] font-CormorantGaramond bg-dark text-beige dark:bg-beige dark:text-dark py-2 px-4 rounded-full hover:px-[30px] transition-all duration-300 my-7 shadow-md"
           >
             {translations.contact.button}
           </button>

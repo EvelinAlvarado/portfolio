@@ -14,6 +14,16 @@
     "title": "Hello.",
     "description": "Are you looking to hire a Frontend Developer who's committed, to joining your team? Lets get in touch!",
     "button": "E-mail",
-    "text": "Find me on: "
+    "text": "Find me on: ",
+    "form": {
+      "title": "Contact Form",
+      "nameLabel": "Name",
+      "emailLabel": "E-mail Address",
+      "messageLabel": "Message",
+      "sendButton": "Send",
+      "emailSent": "Email Sent!",
+      "requiredError": "This field is required",
+      "invalidEmailError": "Invalid email address"
+    }
   }
 }
