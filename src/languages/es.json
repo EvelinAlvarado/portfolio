@@ -25,5 +25,24 @@
       "requiredError": "Este campo es obligatorio",
       "invalidEmailError": "E-mail inválido"
     }
+  },
+  "about": {
+    "title": "Sobre Mí.",
+    "subtitle": "¡Hola! soy Evelin",
+    "span_1": " Tecnóloga Médica en Laboratorio Clínico ",
+    "description_1": "apasionada por la ciencia que recientemente incursionó en el mundo del ",
+    "span_2": "desarrollo frontend ",
+    "description_2": "a partir de junio de 2023. Estoy entusiasmada por continuar creciendo y aportando al campo tecnológico con todo mi esfuerzo y compromiso.",
+    "description_3": "Mi trayectoria en el ámbito de la salud me ha brindado habilidades en ",
+    "span_3": "gestión de laboratorio, liderazgo de equipos y redacción especializada ",
+    "description_4": ". Sin embargo, mi interés por la programación me condujo hacia el desarrollo frontend.",
+    "description_5": "El año pasado realicé el ",
+    "span_4": "bootcamp de Oracle - Alura Latam del programa ONE (Oracle Next Education), ",
+    "description_7": "enfocado en ",
+    "link_1": "Frontend",
+    "description_8": " y ",
+    "link_2": "React",
+    "description_9": ". En la actualidad, estoy explorando tecnologías como Tailwind CSS o TypeScript y dedicando tiempo a proyectos personales para fortalecer mis habilidades. Busco oportunidades que me permitan seguir aprendiendo y evolucionando.",
+    "description_10": "Fuera del ámbito profesional, disfruto de la compañía de mis gatos y soy una entusiasta del canto. En mis momentos libres, disfruto viendo series, escuchando podcasts y tomando café americano en las tardes frías de invierno. También me apasiona descubrir culturas y tradiciones de todo el mundo. Así mantengo un equilibrio entre mi carrera y bienestar."
   }
 }

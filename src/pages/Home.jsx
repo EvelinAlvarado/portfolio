@@ -6,7 +6,7 @@ export const Home = () => {
   return (
     <section className="my-auto">
       <main className="mx-[10%]">
-        <h1 className="text-[14px] tracking-[2px] uppercase font-medium mb-0">
+        <h1 className="text-[14px] tracking-[2px] uppercase font-medium mb-3">
           {translations.home.title}
         </h1>
         <h2 className="text-xs w-full mb-5 tracking-[1px] leading-6">
@@ -21,7 +21,7 @@ export const Home = () => {
           <li>
             <Link
               to="/about"
-              className="text-[16vw] font-CormorantGaramond italic font-medium tracking-tight uppercase hover:text-[17vw] hover:tracking-wide hover:ml-4 cursor-pointer transition-all duration-300 ease-in-out mb-3"
+              className="text-[14vw] font-CormorantGaramond italic font-medium tracking-tight uppercase  hover:tracking-wide hover:ml-4 cursor-pointer transition-all duration-300 ease-in-out mb-3"
             >
               {translations.home.about}
             </Link>
@@ -29,7 +29,7 @@ export const Home = () => {
           <li>
             <Link
               to="/projects"
-              className="text-[16vw] font-CormorantGaramond italic font-medium tracking-tight uppercase hover:text-[17vw] hover:tracking-wide hover:ml-4 cursor-pointer transition-all duration-300 ease-in-out mb-3"
+              className="text-[14vw] font-CormorantGaramond italic font-medium tracking-tight uppercase hover:tracking-wide hover:ml-4 cursor-pointer transition-all duration-300 ease-in-out mb-3"
             >
               {translations.home.projects}
             </Link>
@@ -37,7 +37,7 @@ export const Home = () => {
           <li>
             <Link
               to="/contact"
-              className="text-[16vw] font-CormorantGaramond italic font-medium tracking-tight uppercase hover:text-[17vw] hover:tracking-wide hover:ml-4 cursor-pointer transition-all duration-300 ease-in-out"
+              className="text-[14vw] font-CormorantGaramond italic font-medium tracking-tight uppercase hover:tracking-wide hover:ml-4 cursor-pointer transition-all duration-300 ease-in-out"
             >
               {translations.home.contact}
             </Link>

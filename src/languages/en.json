@@ -25,5 +25,24 @@
       "requiredError": "This field is required",
       "invalidEmailError": "Invalid email address"
     }
+  },
+  "about": {
+    "title": "About.",
+    "subtitle": "Hey! I'm Evelin",
+    "span_1": "A Medical Laboratory Scientist (MLS) ",
+    "description_1": "passionate about science who recently ventured into the world of ",
+    "span_2": "frontend development ",
+    "description_2": "starting in June 2023. I'm excited to continue growing and contributing to the technological field with all my effort and commitment.",
+    "description_3": "My background in healthcare has provided me with skills in ",
+    "span_3": "laboratory management, team leadership, and specialized writing",
+    "description_4": ". However, my interest in programming led me towards frontend development.",
+    "description_5": "Last year, I completed the ",
+    "span_4": "Oracle - Alura Latam bootcamp as part of the ONE (Oracle Next Education) program, ",
+    "description_7": "focusing on ",
+    "link_1": "Frontend",
+    "description_8": " and ",
+    "link_2": "React",
+    "description_9": ". Currently, I'm exploring technologies like Tailwind CSS or TypeScript and dedicating time to personal projects to strengthen my skills. I'm seeking opportunities that allow me to continue learning and evolving.",
+    "description_10": "Outside of the professional life, I enjoy the company of my cats and am passionate about singing. During my free time, I love watching series, listening to podcasts and sipping on Americano coffee on cold winter afternoons. I'm also passionate about discovering cultures and traditions from around the world. This helps me maintain a balance between my career and well-being."
   }
 }
