@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useLanguage } from "../context/index.js";
+import { GoDownload } from "react-icons/go";
 
 export const About = () => {
   const { translations } = useLanguage();
@@ -65,8 +66,8 @@ export const About = () => {
         Studio Code
       </p>
 
-      <button className="text-base tracking-[1px] font-CormorantGaramond bg-dark text-beige dark:bg-beige dark:text-dark py-2 px-4 rounded-full hover:px-[30px] transition-all duration-300 my-7 shadow-md">
-        My CV
+      <button className="text-base tracking-[1px] font-CormorantGaramond bg-dark text-beige dark:bg-beige dark:text-dark py-2 px-4 rounded-full hover:px-[30px] transition-all duration-300 my-7 shadow-md inline-flex items-center">
+        My CV <GoDownload className="ml-1" />
       </button>
     </div>
   );
