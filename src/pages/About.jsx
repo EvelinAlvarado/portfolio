@@ -62,8 +62,8 @@ export const About = () => {
         Skills
       </h2>
       <p className="text-xs leading-6 tracking-[1px]">
-        HTML / CSS / JavaScript / React / Tailwind CSS / Git / Github / Visual
-        Studio Code
+        HTML / CSS / JavaScript / React / Styled-components / Tailwind CSS /
+        React Router DOM / Git / Github / Visual Studio Code
       </p>
 
       <button className="text-base tracking-[1px] font-CormorantGaramond bg-dark text-beige dark:bg-beige dark:text-dark py-2 px-4 rounded-full hover:px-[30px] transition-all duration-300 my-7 shadow-md inline-flex items-center">

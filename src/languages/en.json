@@ -44,5 +44,208 @@
     "link_2": "React",
     "description_9": ". Currently, I'm exploring technologies like Tailwind CSS or TypeScript and dedicating time to personal projects to strengthen my skills. I'm seeking opportunities that allow me to continue learning and evolving.",
     "description_10": "Outside of the professional life, I enjoy the company of my cats and am passionate about singing. During my free time, I love watching series, listening to podcasts and sipping on Americano coffee on cold winter afternoons. I'm also passionate about discovering cultures and traditions from around the world. This helps me maintain a balance between my career and well-being."
+  },
+  "projects": {
+    "title": "Projects.",
+    "card": [
+      {
+        "id": "002",
+        "image": "src/assets/images/projects/decrypt-and-encrypt-text.jpg",
+        "title": "Decrypt and Encrypt Text",
+        "tech": "HTML5 / CSS3 / JavaScript",
+        "description": "This was my first solo project, where I created a tool for exchanging secret messages using simple encryption keys. It aimed to apply skills learned from the Alura Front-end Bootcamp in HTML, CSS, JavaScript, and agile tools like Trello and Figma. The tool transforms original text into a different format based on encryption keys. It includes a feature to copy encrypted or decrypted text to the clipboard with ease.",
+        "github": "https://github.com/EvelinAlvarado/encrypt-and-decrypt-text",
+        "live_project": "https://evelinalvarado.github.io/encrypt-and-decrypt-text/"
+      },
+      {
+        "id": "003",
+        "image": "src/assets/images/projects/travel-website-video-slider.gif",
+        "title": "Responsive Travel Website with Background Video Slider",
+        "tech": "HTML5 / CSS3 / JavaScript",
+        "description": "In this project, I learned how to craft a visually appealing web design using HTML, CSS, and JavaScript. The website features a background video slider with navigation buttons that enable seamless exploration of each slide, enhanced by the magic of JavaScript. Smooth transitions between slides were achieved using the clip-path property.",
+        "github": "https://github.com/EvelinAlvarado/travel-website-video-slider",
+        "live_project": "https://evelinalvarado.github.io/travel-website-video-slider/"
+      },
+      {
+        "id": "004",
+        "image": "src/assets/images/projects/user-card-dark-light-mode-toggle.gif",
+        "title": "User Card with Light & Dark Mode Toggle",
+        "tech": "HTML5 / CSS3 / JavaScript",
+        "description": "In my \"User Card with Light & Dark Mode Toggle\" project, I aimed to practice CSS Flexbox and CSS variables. This project features a user card component where you can see the user's name, role, and social media links. The best part? You can easily switch between light and dark modes with a simple toggle, making it both visually appealing and user-friendly. It's a straightforward demonstration of how HTML, CSS, and JavaScript can come together to create an interactive and dynamic user interface.",
+        "github": "https://github.com/EvelinAlvarado/dark-and-light-mode-toggle-user-card",
+        "live_project": "https://evelinalvarado.github.io/dark-and-light-mode-toggle-user-card/"
+      },
+      {
+        "id": "005",
+        "image": "src/assets/images/projects/todo-app.jpg",
+        "title": "TODO App",
+        "tech": "HTML5 / CSS3 / JavaScript",
+        "description": "A simple TODO application to help you manage your daily tasks efficiently. You can quickly add new tasks, mark them as completed, and remove them once you're done. This project was part of the Oracle - Alura Latam bootcamp, where one of the main goals was to practice DOM manipulation. Through this project, I improved my JavaScript skills, especially in manipulating the DOM to create dynamic and interactive user interfaces.",
+        "github": "https://github.com/EvelinAlvarado/task-list-dom-js-project-alura-oracle",
+        "live_project": "https://evelinalvarado.github.io/task-list-dom-js-project-alura-oracle/"
+      },
+      {
+        "id": "006",
+        "image": "src/assets/images/projects/testimonial-app-clone.jpg",
+        "title": "Testimonial App Clone",
+        "tech": "HTML5 / CSS3 / JavaScript / React",
+        "description": "This project is a clone of a testimonial app that displays feedback from freeCodeCamp alumni. It was created as part of the freeCodeCamp React course. The Testimonial Component is a reusable React component designed to showcase each testimonial. Testimonials are statically hardcoded into the component for simplicity. This project marks my initial steps into the world of React development, where I gained hands-on experience in building reusable components and managing state within a React application.",
+        "github": "https://github.com/EvelinAlvarado/project1-clon-de-testimonios-de-freecodecamp/tree/main",
+        "live_project": "https://project1-clon-de-testimonios-de-freecodecamp.vercel.app/"
+      },
+      {
+        "id": "007",
+        "image": "src/assets/images/projects/click-counter.jpg",
+        "title": "Click Counter",
+        "tech": "HTML5 / CSS3 / JavaScript / React",
+        "description": "This project is a simple click counter app developed to learn and demonstrate the use of useState in React. It allows users to increment a counter with each click and reset it to zero. The key features include the ability to increment the counter by clicking a button and reset it using another button. This project was part of the freeCodeCamp React course, where I gained practical experience with React's useState hook.",
+        "github": "https://github.com/EvelinAlvarado/project2-click-counter",
+        "live_project": "https://project2-click-counter.vercel.app/"
+      },
+      {
+        "id": "008",
+        "image": "src/assets/images/projects/project-interactive-calculator.jpg",
+        "title": "Interactive Calculator",
+        "tech": "HTML5 / CSS3 / JavaScript / React / Math.js",
+        "description": "This project demonstrates how to create a functional calculator using React, incorporating components, state management, and Math.js for mathematical calculations. The goal is to solidify understanding of React concepts while building a practical and interactive tool, enabling users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The app also features a dedicated clear button to reset the current input.",
+        "github": "https://github.com/EvelinAlvarado/project3-interactive-calculator",
+        "live_project": "https://project3-interactive-calculator.vercel.app/"
+      },
+      {
+        "id": "009",
+        "image": "src/assets/images/projects/todo-list-react.jpg",
+        "title": "TODO List",
+        "tech": "HTML5 / CSS3 / JavaScript / React",
+        "description": "This project is a simple To-Do List app that I developed to get better at using React. With this app, you can easily add new tasks, mark them as complete, and remove them once they’re done. I used react-icons to make the task icons look great and the uuid library to give each task a unique ID. Working on this project was a fantastic way to learn more about React and build something useful for everyday life.",
+        "github": "https://github.com/EvelinAlvarado/project4-to-do-list-app",
+        "live_project": "https://project4-to-do-list-app.vercel.app/"
+      },
+      {
+        "id": "011",
+        "image": "src/assets/images/projects/login-and-sign-up-form-using-reactjs.jpg",
+        "title": "Sign In & Sign Up Form",
+        "tech": "HTML5 / CSS3 / JavaScript / React / Vite",
+        "description": "This project features a Sign In & Sign Up form created with ReactJS. Its primary focus is to practice and apply functional components in React, along with managing props and functions effectively. The project setup utilizes Vite for React. Key features include an interactive Sign In & Sign Up form and seamless switching between 'Sign In' and 'Sign Up' functionalities using React components. Bootstrap Icons are incorporated to enhance visual appeal.",
+        "github": "https://github.com/EvelinAlvarado/login-and-sign-up-form-using-reactjs",
+        "live_project": "https://login-and-sign-up-form-using-reactjs.vercel.app/"
+      },
+      {
+        "id": "012",
+        "image": "src/assets/images/projects/team-member-info-form-and-card-generator.jpg",
+        "title": "Org - Team Management",
+        "tech": "HTML5 / CSS3 / JavaScript / React / Vite / Figma",
+        "description": "Org is a user-friendly platform that helps you manage and organize your team efficiently. Easily add new members with basic info like name, position, and photo. Create custom teams with unique colors for quick identification and highlight favorite team members for quick access and special recognition. This project is part of the Alura - Oracle React course, with resources from Figma and features react-icons and uuid.",
+        "github": "https://github.com/EvelinAlvarado/team-member-info-form-and-card-generator",
+        "live_project": "https://org-team-management.vercel.app/"
+      },
+      {
+        "id": "013",
+        "image": "src/assets/images/projects/petshop-project-crud-js-async.jpg",
+        "title": "Petshop CRUD Project",
+        "tech": "HTML5 / CSS3 / JavaScript / API / JSON Server ",
+        "description": "This project is a simple CRUD (Create, Read, Update, Delete) application designed for managing client profiles in a pet shop. The primary goal was to learn how to perform CRUD operations, interact with a RESTful API using fetch, and handle asynchronous tasks efficiently with async/await and try-catch blocks. The app allows you to create, read, update, and delete client profiles seamlessly while keeping the code clean and manageable.",
+        "github": "https://github.com/EvelinAlvarado/petshop-project-crud-js-async",
+        "live_project": "https://petshop-project-crud-js-async.vercel.app/"
+      },
+      {
+        "id": "015",
+        "image": "src/assets/images/projects/petshop-project-react-router-spa.jpg",
+        "title": "Pet News Blog",
+        "tech": "HTML5 / CSS3 / JavaScript / React / Vite / Axios / React Router / JSON Server",
+        "description": "This project is a Pet News Blog, part of the React course at Alura Latam. It features a variety of pet-related news articles with easy navigation through different categories and subcategories. If you land on a non-existent route, you'll see a custom 404 page. The app uses axios for fetching data, react-router-dom for seamless navigation, and json-server to create a mock REST API. Working on this project helped me get comfortable with useState and useEffect hooks, React Router, and building a Single Page Application (SPA).",
+        "github": "https://github.com/EvelinAlvarado/petshop-project-react-router-spa",
+        "live_project": "https://petshop-project-react-router-spa.vercel.app/"
+      },
+      {
+        "id": "017",
+        "image": "src/assets/images/projects/smart-bank-react-styled-components.jpg",
+        "title": "Smart Bank",
+        "tech": "HTML5 / CSS3 / JavaScript / React / Vite / Styled-Components",
+        "description": "The Smart Bank app let you do a variety of things like checking your account balance, viewing recent expenses, and switching between light and dark themes. The app uses Styled-Components to make styling React components modular and reusable. The main goal of this project was to get hands-on practice with Styled-Components, while also improving  my skills in React and JavaScript.",
+        "github": "https://github.com/EvelinAlvarado/smart-bank-react-styled-components",
+        "live_project": "https://smart-bank-react-styled-components.vercel.app/"
+      },
+      {
+        "id": "018",
+        "image": "src/assets/images/projects/form-delivery-food-react.jpg",
+        "title": "Delivery Food Form Validation with JavaScript",
+        "tech": "HTML5 / CSS3 / JavaScript / React / Vite / Styled-Components / Material UI",
+        "description": "Delivery Food Form Validation with JavaScript showcases how to implement form validation in a React application using pure JavaScript. This project was developed to practice state management with useState and enhance form validation skills. It features custom JavaScript functions for form validation, state management with useState, and a multi-step form with validation at each step.",
+        "github": "https://github.com/EvelinAlvarado/form-delivery-food-react-usecontext-customhooks",
+        "live_project": "https://form-delivery-food-react-usecontext-customhooks.vercel.app/"
+      },
+      {
+        "id": "019",
+        "image": "src/assets/images/projects/form-react-material-ui-components.jpg",
+        "title": "React Form Validation with React Hook Form",
+        "tech": "HTML5 / CSS3 / JavaScript / React / Vite / Styled-Components / React Hook Form / Material UI",
+        "description": "React Form Validation demonstrates how to implement form validation using React Hook Form, styled-components for custom styling, and Material-UI for UI components. It showcases effective form validation techniques through React Hook Form, styled-components, and Material-UI for responsive design. This project allowed me to practice React, JavaScript, and styled-components, focusing on learning efficient form validation methods with React Hook Form.",
+        "github": "https://github.com/EvelinAlvarado/form-react-material-ui-components",
+        "live_project": "https://form-validation-react-alpha.vercel.app/"
+      },
+      {
+        "id": "021",
+        "image": "src/assets/images/projects/movieshub-react.jpg",
+        "title": "MoviesHub",
+        "tech": "HTML5 / CSS3 / JavaScript / React / Vite / Styled-Components / React Hook Form / Axios / React Router / JSON Server / Trello",
+        "description": "MoviesHub is a responsive web application developed as a challenge during the React course at Alura Latam. The project allows users to manage movies and categories by adding, editing, and deleting entries, all presented in an interactive and visually appealing interface. The application's design and implementation followed steps outlined in Trello. Key features include synchronized sliders for movies and categories, forms for creating new entries, and dynamic fetching of data from a JSON server. Technologies used include react-hook-form for form handling and react-slick for creating carousel/slider components in React, alongside the use of uuid.",
+        "github": "https://github.com/EvelinAlvarado/movieshub-react",
+        "live_project": "https://movieshub-react.vercel.app/"
+      },
+      {
+        "id": "022",
+        "image": "src/assets/images/projects/task-list-react-ts.jpg",
+        "title": "Task List App",
+        "tech": "HTML5 / CSS3 / JavaScript / React / Vite / TypeScript",
+        "description": "Task List App is a straightforward web application developed as a first-time project using TypeScript. It enables users to manage tasks by adding new ones and deleting them from the list. This project aims to introduce the developer to TypeScript's syntax, type annotations, and overall usage within a React application.",
+        "github": "https://github.com/EvelinAlvarado/task-list-react-ts",
+        "live_project": "https://task-list-react-ts.vercel.app/"
+      },
+      {
+        "id": "023",
+        "image": "src/assets/images/projects/social-media-dashboard-with-theme-switcher.jpg",
+        "title": "Social Media Dashboard with Theme Switcher",
+        "tech": "HTML5 / CSS3 / JavaScript / React / Vite / Tailwind CSS",
+        "description": "This project is a social media dashboard where users can track their followers and subscribers across platforms like Facebook, Twitter, Instagram, and YouTube. The dashboard includes a theme switcher for toggling between light and dark themes to enhance user experience. The design is responsive, ensuring optimal viewing on different devices. Data for the dashboard is sourced from a JSON file and was part of the Frontend Mentor challenge. The primary goal was to familiarize myself for the first time with Tailwind CSS and to learn its implementation.",
+        "github": "https://github.com/EvelinAlvarado/social-media-dashboard-with-theme-switcher",
+        "live_project": "https://social-media-dashboard-with-theme-switcher-ruby.vercel.app/"
+      },
+      {
+        "id": "035",
+        "image": "src/assets/images/projects/advice-generator-app.jpg",
+        "title": "Advice Generator App",
+        "tech": "HTML5 / CSS3 / JavaScript / React / Tailwind CSS / API / Vite",
+        "description": "This Advice Generator app, developed as part of a Frontend Mentor challenge, fetches and displays random pieces of advice from the Advice Slip JSON API. Users can easily obtain new advice with a button click. The app features a user-friendly interface and is designed to be fully responsive. The primary objective of this project was to enhance skills in using Tailwind CSS and in consuming APIs.",
+        "github": "https://github.com/EvelinAlvarado/advice-generator-app",
+        "live_project": "https://advice-generator-app-one-sooty.vercel.app/"
+      },
+      {
+        "id": "036",
+        "image": "src/assets/images/projects/news-homepage.jpg",
+        "title": "News Website",
+        "tech": "HTML5 / CSS3 / JavaScript / React / Tailwind CSS / React Icons / Vite",
+        "description": "This project is a responsive news website that features a prominent section for main articles highlighting important news, a dynamic news container displaying the latest articles, and a section for popular articles. The creation of this website aimed to enhance my skills in Tailwind CSS, which I was beginning to learn. It was developed as part of the Frontend Mentor challenge.",
+        "github": "https://github.com/EvelinAlvarado/news-homepage",
+        "live_project": "https://news-homepage-bay-eight.vercel.app/"
+      },
+      {
+        "id": "038",
+        "image": "src/assets/images/projects/sunnyside-agency-landing-page.jpg",
+        "title": "Sunnyside Agency Landing Page",
+        "tech": "HTML5 / CSS3 / JavaScript / React / Tailwind CSS / React Icons / Vite",
+        "description": "This project is a responsive landing page for Sunnyside Agency, crafted as part of the Frontend Mentor challenge. It includes a complete header with navigation, an engaging homepage, detailed service descriptions, customer testimonials, a dynamic gallery showcasing their work, and a footer with additional links and social media integration. The landing page is designed to provide both visually appealing design and informative content across different devices.",
+        "github": "https://github.com/EvelinAlvarado/sunnyside-agency-landing-page",
+        "live_project": "https://sunnyside-agency-landing-page-gamma-eight.vercel.app/"
+      },
+      {
+        "id": "040",
+        "image": "src/assets/images/projects/food-delivery-app-responsive.jpg",
+        "title": "Food Delivery App",
+        "tech": "HTML5 / CSS3 / JavaScript / React / Tailwind CSS / React Icons / Vite",
+        "description": "The Food Delivery App is a web application that lets users explore a wide variety of food options, check out detailed information about each item, add them to their cart, and proceed to checkout. Users can easily browse through different food categories, manage their cart by adding or removing items, and see the total amount due. The app is designed to provide a seamless and responsive experience on all devices.",
+        "github": "https://github.com/EvelinAlvarado/food-delivery-app-responsive",
+        "live_project": "https://food-delivery-app-responsive.vercel.app/"
+      }
+    ]
   }
 }

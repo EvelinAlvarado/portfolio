@@ -12,6 +12,8 @@ export default {
       colors: {
         beige: "#ECE7E1",
         dark: "#1A1818",
+        darkCard: "#5C5C5C",
+        beigeCard: "#B5A89F",
         btnBeige: "#ECE7E1",
         btnDark: "#1A1818",
       },
@@ -19,3 +21,5 @@ export default {
   },
   plugins: [],
 };
+
+// use https://www.tailwindcss-animated.com/configurator.html?animation=fade-up at titles effect
