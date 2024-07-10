@@ -19,7 +19,8 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animated")],
 };
 
 // use https://www.tailwindcss-animated.com/configurator.html?animation=fade-up at titles effect
+// animate-fade-up animate-duration-[2000ms] animate-ease-in-out

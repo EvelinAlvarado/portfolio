@@ -9,7 +9,7 @@ export const Contacts = () => {
     <>
       {modalIsOpen ? <EmailModal setModalIsOpen={setModalIsOpen} /> : <></>}
       <div className="mx-[10%]">
-        <h1 className="text-[16vw] font-CormorantGaramond font-medium tracking-tight mb-3">
+        <h1 className="text-[16vw] font-CormorantGaramond font-medium tracking-tight mb-3 titleAnimate">
           {translations.contact.title}
         </h1>
         <div>

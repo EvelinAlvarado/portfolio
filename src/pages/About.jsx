@@ -6,7 +6,7 @@ export const About = () => {
   const { translations } = useLanguage();
   return (
     <div className="mx-[10%]">
-      <h1 className="text-[16vw] font-CormorantGaramond font-medium tracking-tight mb-3">
+      <h1 className="text-[16vw] font-CormorantGaramond font-medium tracking-tight mb-3 titleAnimate">
         {translations.about.title}
       </h1>
       <h2 className="text-3xl font-CormorantGaramond font-medium tracking-tight mb-5">
@@ -32,7 +32,7 @@ export const About = () => {
         </span>
         {translations.about.description_7}
         <a
-          href="https://app.aluracursos.com/user/evelinalvarado/degree-frontend-grupo5-one-15575/certificate"
+          href="https://app.aluracursos.com/program/certificate/eca21fb8-09d1-4834-b128-80e5399c0638"
           target="_blank"
           rel="noopener noreferrer"
           className="underline hover:none hover:line-through"
@@ -41,7 +41,7 @@ export const About = () => {
         </a>
         {translations.about.description_8}
         <a
-          href="https://app.aluracursos.com/user/evelinalvarado/degree-react-grupo5-one-15576/certificate"
+          href="https://app.aluracursos.com/degree/certificate/f45bb092-1e8f-4163-b1d0-eb3d0c6bc3b9"
           target="_blank"
           rel="noopener noreferrer"
           className="underline hover:none hover:line-through"

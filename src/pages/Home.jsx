@@ -6,7 +6,7 @@ export const Home = () => {
   return (
     <section className="my-auto">
       <main className="mx-[10%]">
-        <h1 className="text-[14px] tracking-[2px] uppercase font-medium mb-3">
+        <h1 className="text-[14px] tracking-[2px] uppercase font-medium mb-3 titleAnimate">
           {translations.home.title}
         </h1>
         <h2 className="text-xs w-full mb-5 tracking-[1px] leading-6">

@@ -47,7 +47,7 @@
   font-style: italic;
 }
 
-/* custom.css */
+/* Custom classes for buttons */
 .button-80 {
   @apply relative transition-transform transform;
 }
@@ -63,4 +63,11 @@
 .button-80:focus:before {
   content: "";
   @apply absolute left-[-0.375rem] top-[-0.375rem] transition-all pointer-events-none;
+}
+
+/* Custom animation class */
+@layer utilities {
+  .titleAnimate {
+    @apply animate-fade-up animate-duration-[1000ms] animate-ease-in-out;
+  }
 }
