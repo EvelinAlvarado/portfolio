@@ -1,8 +1,14 @@
 import { GoArrowRight } from "react-icons/go";
 
-export const CardProject = ({ project }) => {
+export const CardProject = ({ project, index }) => {
+  const cardIsEven = index % 2 === 0;
+  // console.log(`Card´s index is ${index} it´s ${cardIsEven}`);
   return (
-    <div className="bg-beigeCard rounded-2xl p-4 mb-8 w-full">
+    <div
+      className={`${
+        cardIsEven ? "bg-beigeCard text-dark" : "bg-darkCard text-beige"
+      } rounded-2xl p-4 mb-8 w-full`}
+    >
       <div className="w-full">
         <img
           className="rounded-t-xl w-full h-auto object-cover"

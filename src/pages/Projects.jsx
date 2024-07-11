@@ -3,6 +3,7 @@ import { CardProject } from "../components/CardProject/CardProject.jsx";
 
 export const Projects = () => {
   const { translations } = useLanguage();
+
   return (
     <div className="mx-[10%]">
       <h1 className="text-[16vw] font-CormorantGaramond font-medium tracking-tight mb-3 titleAnimate">
@@ -10,8 +11,8 @@ export const Projects = () => {
       </h1>
 
       <div>
-        {translations.projects.card.toReversed().map((project) => (
-          <CardProject key={project.id} project={project} />
+        {translations.projects.card.toReversed().map((project, index) => (
+          <CardProject key={project.id} project={project} index={index} />
         ))}
       </div>
     </div>

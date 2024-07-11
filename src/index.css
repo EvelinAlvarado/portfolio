@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Definition of global fonts */
 @font-face {
   font-family: "BodoniModa";
   src: url("./assets/fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf")
@@ -47,27 +48,32 @@
   font-style: italic;
 }
 
-/* Custom classes for buttons */
-.button-80 {
-  @apply relative transition-transform transform;
-}
+/* Reusable component styles */
+@layer components {
+  /* Custom classes for buttons */
+  .button-80 {
+    @apply relative transition-transform transform;
+  }
 
-.button-80:hover {
-  @apply scale-105;
-}
+  .button-80:hover {
+    @apply scale-105;
+  }
 
-.button-80:active {
-  @apply translate-y-0.5;
-}
+  .button-80:active {
+    @apply translate-y-0.5;
+  }
 
-.button-80:focus:before {
-  content: "";
-  @apply absolute left-[-0.375rem] top-[-0.375rem] transition-all pointer-events-none;
-}
+  .button-80:focus:before {
+    content: "";
+    @apply absolute left-[-0.375rem] top-[-0.375rem] transition-all pointer-events-none;
+  }
 
-/* Custom animation class */
-@layer utilities {
+  /* Reusable animation for titles */
   .titleAnimate {
     @apply animate-fade-up animate-duration-[1000ms] animate-ease-in-out;
   }
+}
+
+@layer utilities {
+  /* Here you can add additional utilities that are not widely reused */
 }
