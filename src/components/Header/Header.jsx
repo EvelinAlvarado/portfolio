@@ -23,12 +23,13 @@ export const Header = () => {
   }, [theme]);
 
   const handleChangesTheme = () => {
-    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
+    // Start view transition
+    document.startViewTransition(() => {
+      setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
+    });
   };
   return (
     <header className="mx-[10%] my-[5%] flex items-center justify-between text-[10px] font-medium">
-      {" "}
-      {/* fixed */}
       <Link to="/" className="">
         <svg
           xmlns="http://www.w3.org/2000/svg"

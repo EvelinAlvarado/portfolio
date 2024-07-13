@@ -12,7 +12,7 @@ export default {
       colors: {
         beige: "#ECE7E1",
         dark: "#1A1818",
-        darkCard: "#5C5C5C",
+        darkCard: "#434040",
         beigeCard: "#B5A89F",
         btnBeige: "#ECE7E1",
         btnDark: "#1A1818",

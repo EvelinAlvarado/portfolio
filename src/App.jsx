@@ -13,12 +13,14 @@ function App() {
         <BrowserRouter>
           <div className="flex flex-col h-screen">
             <Header />
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/projects" element={<Projects />} />
-              <Route path="/contact" element={<Contacts />} />
-            </Routes>
+            <div className="flex-grow overflow-auto">
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/projects" element={<Projects />} />
+                <Route path="/contact" element={<Contacts />} />
+              </Routes>
+            </div>
           </div>
         </BrowserRouter>
       </LanguagesProvider>

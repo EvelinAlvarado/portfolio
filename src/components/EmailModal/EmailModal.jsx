@@ -42,7 +42,7 @@ export const EmailModal = ({ setModalIsOpen }) => {
   };
 
   return (
-    <section className="absolute z-10 h-screen w-screen bg-dark dark:bg-beige dark:bg-opacity-25 bg-opacity-55 flex items-center">
+    <section className="absolute top-0 z-10 h-screen w-screen bg-dark dark:bg-beige dark:bg-opacity-25 bg-opacity-55 flex items-center">
       <form
         onSubmit={handleSubmit(sendEmail)}
         ref={form}

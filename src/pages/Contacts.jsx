@@ -12,7 +12,7 @@ export const Contacts = () => {
         <h1 className="text-[16vw] font-CormorantGaramond font-medium tracking-tight mb-3 titleAnimate">
           {translations.contact.title}
         </h1>
-        <div>
+        <div className="relative top-1 overflow-auto max-h-[calc(100vh-13rem)]">
           <p className="text-xs w-full leading-6 tracking-[1px]">
             {translations.contact.description}
           </p>

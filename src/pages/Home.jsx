@@ -4,7 +4,7 @@ import { useLanguage } from "../context/index.js";
 export const Home = () => {
   const { translations } = useLanguage();
   return (
-    <section className="my-auto">
+    <section className="flex flex-col justify-center h-full">
       <main className="mx-[10%]">
         <h1 className="text-[14px] tracking-[2px] uppercase font-medium mb-3 titleAnimate">
           {translations.home.title}
