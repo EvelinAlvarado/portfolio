@@ -74,8 +74,16 @@
   }
 }
 
+/* Here you can add additional utilities that are not widely reused */
 @layer utilities {
-  /* Here you can add additional utilities that are not widely reused */
+  /* .loader {
+    background: radial-gradient(circle closest-side, #000 94%, transparent)
+      right/calc(200% - 1em) 100%;
+  } */
+  .loader-text {
+    background: inherit;
+    -webkit-background-clip: text;
+  }
 }
 
 /* Custom animation and transition rules: document.startViewTransition */

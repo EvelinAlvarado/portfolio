@@ -5,7 +5,7 @@ export const LoaderContext = createContext();
 
 export const LoaderProvider = ({ children }) => {
   const [loading, setLoading] = useState(false);
-  const location = useLocation();
+  /* const location = useLocation(); */
 
   useEffect(() => {
     console.log("is loading");
@@ -15,10 +15,10 @@ export const LoaderProvider = ({ children }) => {
       setLoading(false);
     };
 
-    const timeOut = setTimeout(handleLoad, 50000);
+    const timeOut = setTimeout(handleLoad, 2500);
     return () => clearTimeout(timeOut);
-  }, [location.pathname]); // Extract specific properties
-
+  }, []);
+  /* location.pathname */ // Extract specific properties
   return (
     <LoaderContext.Provider value={{ loading }}>
       {children}

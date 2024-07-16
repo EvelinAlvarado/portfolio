@@ -5,14 +5,17 @@ import "./index.css";
 import { LoaderProvider } from "./context/LoaderContext.jsx";
 import { LanguagesProvider } from "./context/LanguagesContext.jsx";
 import { BrowserRouter } from "react-router-dom";
+import { ThemeProvider } from "./context/ThemeContext.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
       <LoaderProvider>
-        <LanguagesProvider>
-          <App />
-        </LanguagesProvider>
+        <ThemeProvider>
+          <LanguagesProvider>
+            <App />
+          </LanguagesProvider>
+        </ThemeProvider>
       </LoaderProvider>
     </BrowserRouter>
   </React.StrictMode>

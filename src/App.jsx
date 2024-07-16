@@ -14,9 +14,8 @@ function App() {
       {loading && <Loader />}
       <div className={`flex flex-col h-screen ${loading ? "hidden" : "block"}`}>
         <Header />
-        <div
-          className={`flex-grow overflow-auto ${loading ? "hidden" : "block"}`}
-        >
+        {/* className={`flex-grow overflow-auto ${loading ? "hidden" : "block"}`} */}
+        <div className="flex-grow overflow-auto">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

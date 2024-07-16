@@ -17,6 +17,15 @@ export default {
         btnBeige: "#ECE7E1",
         btnDark: "#1A1818",
       },
+      keyframes: {
+        l24: {
+          "0%": { backgroundPosition: "right" },
+          "100%": { backgroundPosition: "left" },
+        },
+      },
+      animation: {
+        l24: "l24 1s infinite alternate linear",
+      },
     },
   },
   plugins: [require("tailwindcss-animated")],

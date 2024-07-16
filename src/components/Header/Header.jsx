@@ -1,11 +1,12 @@
-import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { IoSunnyOutline, IoMoonOutline } from "react-icons/io5";
-import { useLanguage } from "../../context/index.js";
+import { useLanguage, useTheme } from "../../context/index.js";
 
 export const Header = () => {
-  const [theme, setTheme] = useState(() => {
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+  const { language, toggleLanguage } = useLanguage();
+  const { isDarkMode, toggleTheme } = useTheme();
+  /* const [theme, setTheme] = useState(() => {
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) { 
       return "dark";
     } else {
       return "light";
@@ -27,6 +28,13 @@ export const Header = () => {
     document.startViewTransition(() => {
       setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
     });
+  }; */
+  const handleChangesTheme = () => {
+    // Start view transition
+    // Start view transition (if applicable) or just toggle theme
+    document.startViewTransition
+      ? document.startViewTransition(toggleTheme)
+      : toggleTheme();
   };
   return (
     <header className="mx-[10%] my-[5%] flex items-center justify-between text-[10px] font-medium">
@@ -186,7 +194,7 @@ export const Header = () => {
           {language === "en" ? "es" : "en"}
         </button>{" "}
         <button className="cursor-pointer" onClick={handleChangesTheme}>
-          {theme === "light" ? (
+          {isDarkMode ? (
             <IoSunnyOutline size={18} />
           ) : (
             <IoMoonOutline size={18} />
