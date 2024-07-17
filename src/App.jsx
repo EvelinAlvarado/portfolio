@@ -6,11 +6,13 @@ import { Contacts } from "./pages/Contacts";
 import { Header } from "./components/Header/Header";
 import { useLoader } from "./context/index.js";
 import { Loader } from "./pages/Loader.jsx";
+import { AnimatedCursorCustom } from "./components/AnimatedCursorCustom/AnimatedCursorCustom.jsx";
 
 function App() {
   const { loading } = useLoader();
   return (
     <>
+      <AnimatedCursorCustom />
       {loading && <Loader />}
       <div className={`flex flex-col h-screen ${loading ? "hidden" : "block"}`}>
         <Header />

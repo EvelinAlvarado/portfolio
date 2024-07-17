@@ -241,7 +241,7 @@
         "id": "040",
         "image": "src/assets/images/projects/food-delivery-app-responsive.jpg",
         "title": "Food Delivery App",
-        "tech": "HTML5 / CSS3 / JavaScript / React / Tailwind / React Icons / Vite",
+        "tech": "HTML5 / CSS3 / JavaScript / React / Tailwind CSS/ React Icons / Vite",
         "description": "Food Delivery App es una aplicación web que permite a los usuarios explorar una gran variedad de opciones de comida, ver información detallada de cada artículo, agregarlos a su carrito y proceder al pago. Los usuarios pueden navegar fácilmente por diferentes categorías de alimentos, gestionar su carrito añadiendo o eliminando artículos, y ver el monto total a pagar. La aplicación está diseñada para ofrecer una experiencia fluida y responsiva en todos los dispositivos.",
         "github": "https://github.com/EvelinAlvarado/food-delivery-app-responsive",
         "live_project": "https://food-delivery-app-responsive.vercel.app/"

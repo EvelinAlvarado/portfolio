@@ -15,4 +15,5 @@
   <img src="https://img.shields.io/badge/React_Hook_Form-EC5990?style=for-the-badge&logo=react-hook-form&logoColor=white">
   <img src="https://img.shields.io/badge/JSON_Server-npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
   <img src="https://img.shields.io/badge/Tailwind%20CSS%20Animated-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white">
+  <img src="https://img.shields.io/badge/React_Animated_Cursor-npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
 </div>
