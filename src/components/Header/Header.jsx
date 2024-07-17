@@ -37,8 +37,8 @@ export const Header = () => {
       : toggleTheme();
   };
   return (
-    <header className="mx-[10%] my-[5%] flex items-center justify-between text-[10px] font-medium">
-      <Link to="/" className="">
+    <header className="mx-[10%] my-[5%] flex items-center justify-between text-[10px] font-medium sm:flex-col sm:ml-0 sm:mr-0 sm:my-20 sm:pl-10 sm:text-[12px]">
+      <Link to="/" className="sm:-rotate-90">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           version="1.1"
@@ -163,10 +163,10 @@ export const Header = () => {
           </g>
         </svg>
       </Link>
-      <ul className="flex gap-3">
+      <ul className="flex gap-3 sm:flex-col sm:gap-10">
         {" "}
         {/* Home- when is in other pages different from home */}
-        <li className="uppercase tracking-[4px] cursor-pointer hover:line-through">
+        <li className="uppercase tracking-[4px] cursor-pointer hover:line-through sm:-rotate-90">
           <a
             href="https://www.linkedin.com/in/evelinalvarado/?locale=pt_BR"
             target="_blank"
@@ -175,7 +175,7 @@ export const Header = () => {
             li
           </a>
         </li>
-        <li className="uppercase tracking-[4px] cursor-pointer hover:line-through">
+        <li className="uppercase tracking-[4px] cursor-pointer hover:line-through sm:-rotate-90">
           <a
             href="https://github.com/EvelinAlvarado"
             target="_blank"
@@ -185,19 +185,22 @@ export const Header = () => {
           </a>
         </li>
       </ul>
-      <div className="w-10 bg-dark dark:bg-beige h-[2px]"></div>
-      <div className="flex gap-3 items-center">
+      <div className="w-[10vh] bg-dark dark:bg-beige h-[2px] sm:h-[20vh] sm:w-[2px]"></div>
+      <div className="flex gap-3 items-center  sm:flex-col sm:gap-10">
         <button
           onClick={toggleLanguage}
-          className="uppercase tracking-[4px] cursor-pointer hover:line-through"
+          className="uppercase tracking-[4px] cursor-pointer hover:line-through sm:-rotate-90"
         >
           {language === "en" ? "es" : "en"}
         </button>{" "}
-        <button className="cursor-pointer" onClick={handleChangesTheme}>
+        <button
+          className="cursor-pointer sm:-rotate-90"
+          onClick={handleChangesTheme}
+        >
           {isDarkMode ? (
-            <IoSunnyOutline size={18} />
+            <IoSunnyOutline className="text-[12px] sm:text-[14px]" />
           ) : (
-            <IoMoonOutline size={18} />
+            <IoMoonOutline className="text-[12px] sm:text-[14px]" />
           )}
         </button>
       </div>
