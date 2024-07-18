@@ -21,7 +21,7 @@ function App() {
       >
         <Header />
         {/* className={`flex-grow overflow-auto ${loading ? "hidden" : "block"}`} */}
-        <div className="flex-grow overflow-auto lg:flex-grow-0 sm:my-20 2xl:max-w-[16000px] lg:mx-auto">
+        <div className="flex-grow overflow-auto lg:flex-grow-0 sm:my-20 2xl:max-w-[1600px] lg:mx-auto">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

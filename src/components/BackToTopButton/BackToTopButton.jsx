@@ -34,7 +34,7 @@ export const BackToTopButton = () => {
     isVisibleButton && (
       <button
         onClick={scrollUp}
-        className="fixed bottom-10 right-12 z-50 bg-dark dark:bg-beige dark:text-dark p-1 rounded-full shadow-md text-beige text-lg"
+        className="sticky bottom-[1%] left-[90%] z-50 bg-dark dark:bg-beige dark:text-dark p-1 rounded-full shadow-md text-beige text-lg sm:bottom-[1%] sm:left-[94%] lg:left-[95%] xl:left-[96%] 2xl:left-[97%]"
       >
         <IoIosArrowDropupCircle />
       </button>
