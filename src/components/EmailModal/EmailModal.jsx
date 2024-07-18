@@ -42,16 +42,16 @@ export const EmailModal = ({ setModalIsOpen }) => {
   };
 
   return (
-    <section className="absolute top-0 z-10 h-screen w-screen bg-dark dark:bg-beige dark:bg-opacity-25 bg-opacity-55 flex items-center">
+    <section className="fixed top-0 z-10 h-screen w-screen bg-dark dark:bg-beige dark:bg-opacity-25 bg-opacity-55 flex items-center sm:left-0">
       <form
         onSubmit={handleSubmit(sendEmail)}
         ref={form}
         method="post"
         action="#"
-        className="w-11/12 mx-auto bg-dark p-8 rounded-lg shadow-md flex flex-col text-beige"
+        className="w-11/12 mx-auto bg-dark p-8 rounded-lg shadow-md flex flex-col text-beige sm:w-4/5 md:w-3/5 lg:w-[500px]"
       >
         <div className="mb-4 flex justify-between">
-          <h2 className="text-2xl font-CormorantGaramond font-normal tracking-wider mb-6">
+          <h2 className="text-[24px] font-CormorantGaramond font-normal tracking-wider mb-6 sm:text-[26px]">
             {translations.contact.form.title}
           </h2>
           <IoMdClose
@@ -62,13 +62,13 @@ export const EmailModal = ({ setModalIsOpen }) => {
 
         <div className="mb-4">
           <label
-            className="text-xs w-full leading-6 tracking-[1px] "
+            className="text-[12px] w-full leading-6 tracking-[1px] sm:text-[14px]"
             htmlFor="user_name"
           >
             {translations.contact.form.nameLabel}
           </label>
           <input
-            className="mt-1 p-2 w-full border rounded-md bg-beige text-dark text-xs leading-6 tracking-[1px] font-Montserrat"
+            className="mt-1 p-2 w-full border rounded-md bg-beige text-dark text-[12px] leading-6 tracking-[1px] font-Montserrat sm:text-[14px]"
             type="text"
             name="user_name"
             {...register("user_name", {
@@ -77,7 +77,7 @@ export const EmailModal = ({ setModalIsOpen }) => {
             })}
           />
           {errors.user_name?.type === "required" && (
-            <span className="tracking-[1px] text-red-500 text-[10px] mt-1">
+            <span className="tracking-[1px] text-red-500 text-[10px] mt-1 sm:text-[12px]">
               {errors.user_name.message}
             </span>
           )}
@@ -85,13 +85,13 @@ export const EmailModal = ({ setModalIsOpen }) => {
 
         <div className="mb-4">
           <label
-            className="text-xs w-full leading-6 tracking-[1px]"
+            className="text-[12px] w-full leading-6 tracking-[1px] sm:text-[14px]"
             htmlFor="user_email"
           >
             {translations.contact.form.emailLabel}
           </label>
           <input
-            className="mt-1 p-2 w-full border rounded-md bg-beige text-dark text-xs leading-6 tracking-[1px] font-Montserrat"
+            className="mt-1 p-2 w-full border rounded-md bg-beige text-dark text-[12px] leading-6 tracking-[1px] font-Montserrat sm:text-[14px]"
             type="email"
             name="user_email"
             {...register("user_email", {
@@ -103,7 +103,7 @@ export const EmailModal = ({ setModalIsOpen }) => {
             })}
           />
           {errors.user_email && (
-            <span className="tracking-[1px] text-red-500 text-[10px] mt-1">
+            <span className="tracking-[1px] text-red-500 text-[10px] mt-1 sm:text-[12px]">
               {errors.user_email.message}
             </span>
           )}
@@ -111,13 +111,13 @@ export const EmailModal = ({ setModalIsOpen }) => {
 
         <div className="mb-4">
           <label
-            className="text-xs w-full leading-6 tracking-[1px]"
+            className="text-[12px] w-full leading-6 tracking-[1px] sm:text-[14px]"
             htmlFor="message"
           >
             {translations.contact.form.messageLabel}
           </label>
           <textarea
-            className="mt-1 p-2 w-full border rounded-md bg-beige text-dark text-xs leading-6 tracking-[1px] font-Montserrat"
+            className="mt-1 p-2 w-full border rounded-md bg-beige text-dark text-[12px] leading-6 tracking-[1px] font-Montserrat sm:text-[14px]"
             rows="3"
             name="message"
             {...register("message", {
@@ -125,14 +125,14 @@ export const EmailModal = ({ setModalIsOpen }) => {
             })}
           ></textarea>
           {errors.message?.type === "required" && (
-            <span className="tracking-[1px] text-red-500 text-[10px] mt-1">
+            <span className="tracking-[1px] text-red-500 text-[10px] mt-1 sm:text-[12px]">
               {errors.message.message}
             </span>
           )}
         </div>
 
         <button
-          className="bg-beige text-dark px-4 py-2 font-bold rounded-full hover:opacity-80 text-base tracking-[1px] font-CormorantGaramond mt-4 button-80"
+          className="bg-beige text-dark px-4 py-2 font-bold rounded-full hover:opacity-80 text-[16px] tracking-[1px] font-CormorantGaramond mt-4 button-80 sm:text-[18px]"
           type="submit"
         >
           {buttonText}
