@@ -1,5 +1,3 @@
-import { useContext, useEffect, useState } from "react";
-import { ThemeContext } from "../context/ThemeContext";
 import { useTheme } from "../context";
 
 export const Loader = () => {

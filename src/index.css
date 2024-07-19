@@ -5,45 +5,45 @@
 /* Definition of global fonts */
 @font-face {
   font-family: "BodoniModa";
-  src: url("./assets/fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf")
+  src: url("/assets/fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf")
     format("truetype");
 }
 
 @font-face {
   font-family: "BodoniModa";
-  src: url("./assets/fonts/Bodoni_Moda/BodoniModa-Italic-VariableFont_opsz\,wght.ttf")
+  src: url("/assets/fonts/Bodoni_Moda/BodoniModa-Italic-VariableFont_opsz\,wght.ttf")
     format("truetype");
   font-style: italic;
 }
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf")
+  src: url("/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf")
     format("truetype");
 }
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf")
+  src: url("/assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf")
     format("truetype");
   font-style: italic;
 }
 
 @font-face {
   font-family: "CormorantGaramond";
-  src: url("./assets/fonts/CormorantGaramond/CormorantGaramond-Regular.ttf")
+  src: url("/assets/fonts/CormorantGaramond/CormorantGaramond-Regular.ttf")
     format("truetype");
 }
 
 @font-face {
   font-family: "CormorantGaramond";
-  src: url("./assets/fonts/CormorantGaramond/CormorantGaramond-Medium.ttf")
+  src: url("/assets/fonts/CormorantGaramond/CormorantGaramond-Medium.ttf")
     format("truetype");
 }
 
 @font-face {
   font-family: "CormorantGaramond";
-  src: url("./assets/fonts/CormorantGaramond/CormorantGaramond-Italic.ttf")
+  src: url("/assets/fonts/CormorantGaramond/CormorantGaramond-Italic.ttf")
     format("truetype");
   font-style: italic;
 }

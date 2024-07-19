@@ -50,7 +50,7 @@
     "card": [
       {
         "id": "002",
-        "image": "src/assets/images/projects/decrypt-and-encrypt-text.jpg",
+        "image": "/assets/images/projects/decrypt-and-encrypt-text.jpg",
         "title": "Decrypt and Encrypt Text",
         "tech": "HTML5 / CSS3 / JavaScript",
         "description": "Este fue mi primer proyecto individual, una herramienta para intercambiar mensajes secretos usando claves de encriptación simples. Su objetivo fue aplicar habilidades aprendidas en el Bootcamp de Front-end de Alura en HTML, CSS, JavaScript y herramientas ágiles como Trello y Figma. La herramienta transforma texto original en un formato diferente basado en claves de encriptación. Incluye una función para copiar texto encriptado o desencriptado al portapapeles fácilmente.",
@@ -59,7 +59,7 @@
       },
       {
         "id": "003",
-        "image": "src/assets/images/projects/travel-website-video-slider.gif",
+        "image": "/assets/images/projects/travel-website-video-slider.gif",
         "title": "Responsive Travel Website with Background Video Slider",
         "tech": "HTML5 / CSS3 / JavaScript",
         "description": "En este proyecto, aprendí a crear un diseño web visualmente atractivo utilizando HTML, CSS y JavaScript. El sitio web cuenta con un slider de video de fondo que incluye botones de navegación para explorar cada diapositiva de manera fluida, gracias a la magia de JavaScript. Las transiciones suaves entre diapositivas se lograron utilizando la propiedad clip-path.",
@@ -68,7 +68,7 @@
       },
       {
         "id": "004",
-        "image": "src/assets/images/projects/user-card-dark-light-mode-toggle.gif",
+        "image": "/assets/images/projects/user-card-dark-light-mode-toggle.gif",
         "title": "User Card with Light & Dark Mode Toggle",
         "tech": "HTML5 / CSS3 / JavaScript",
         "description": "En mi proyecto \"User Card with Light & Dark Mode Toggle\", quise practicar CSS Flexbox y el uso de variables en CSS. Este proyecto incluye una tarjeta de usuario donde puedes ver el nombre, el rol y los enlaces a redes sociales del usuario. ¿Lo mejor? Puedes cambiar fácilmente entre modos claro y oscuro con un simple interruptor, haciendo que sea tanto atractivo visualmente como fácil de usar. Es una demostración sencilla de cómo HTML, CSS y JavaScript pueden unirse para crear una interfaz de usuario interactiva y dinámica.",
@@ -77,7 +77,7 @@
       },
       {
         "id": "005",
-        "image": "src/assets/images/projects/todo-app.jpg",
+        "image": "/assets/images/projects/todo-app.jpg",
         "title": "TODO App",
         "tech": "HTML5 / CSS3 / JavaScript",
         "description": "Una aplicación de TODO simple para ayudarte a gestionar tus tareas diarias de manera eficiente. Puedes agregar nuevas tareas rápidamente, marcarlas como completadas y eliminarlas una vez que las hayas hecho. Este proyecto fue parte del bootcamp de Oracle - Alura Latam, donde uno de los principales objetivos era practicar la manipulación del DOM. A través de este proyecto, mejoré mis habilidades en JavaScript, especialmente en la manipulación del DOM para crear interfaces de usuario dinámicas e interactivas.",
@@ -86,7 +86,7 @@
       },
       {
         "id": "006",
-        "image": "src/assets/images/projects/testimonial-app-clone.jpg",
+        "image": "/assets/images/projects/testimonial-app-clone.jpg",
         "title": "Testimonial App Clone",
         "tech": "HTML5 / CSS3 / JavaScript / React",
         "description": "Este proyecto es un clon de una aplicación de testimonios que muestra comentarios de ex alumnos de freeCodeCamp. Fue desarrollado como parte del curso de React de freeCodeCamp. El Componente de Testimonio es un componente reutilizable de React diseñado para mostrar cada testimonio. Los testimonios están codificados estáticamente dentro del componente para simplificar su implementación. Este proyecto representa mis primeros pasos en el desarrollo con React, donde adquirí experiencia práctica en la construcción de componentes reutilizables y en la gestión del estado dentro de una aplicación React.",
@@ -95,7 +95,7 @@
       },
       {
         "id": "007",
-        "image": "src/assets/images/projects/click-counter.jpg",
+        "image": "/assets/images/projects/click-counter.jpg",
         "title": "Click Counter",
         "tech": "HTML5 / CSS3 / JavaScript / React",
         "description": "Este proyecto es una aplicación sencilla de contador de clics desarrollada para aprender y demostrar el uso de useState en React. Permite a los usuarios incrementar un contador con cada clic y restablecerlo a cero. Las características principales incluyen la capacidad de incrementar el contador haciendo clic en un botón y reiniciarlo utilizando otro botón. Este proyecto formó parte del curso de React de freeCodeCamp, donde adquirí experiencia práctica con el hook useState de React.",
@@ -104,7 +104,7 @@
       },
       {
         "id": "008",
-        "image": "src/assets/images/projects/project-interactive-calculator.jpg",
+        "image": "/assets/images/projects/project-interactive-calculator.jpg",
         "title": "Interactive Calculator",
         "tech": "HTML5 / CSS3 / JavaScript / React / Math.js",
         "description": "Este proyecto demuestra cómo crear una calculadora funcional utilizando React, incorporando componentes, gestión de estado y Math.js para los cálculos matemáticos. El objetivo es solidificar la comprensión de los conceptos de React mientras se construye una herramienta práctica e interactiva, permitiendo a los usuarios realizar operaciones aritméticas básicas como suma, resta, multiplicación y división. La aplicación también cuenta con un botón de borrado dedicado para reiniciar la entrada actual.",
@@ -113,7 +113,7 @@
       },
       {
         "id": "009",
-        "image": "src/assets/images/projects/todo-list-react.jpg",
+        "image": "/assets/images/projects/todo-list-react.jpg",
         "title": "TODO List",
         "tech": "HTML5 / CSS3 / JavaScript / React",
         "description": "Este proyecto es una aplicación sencilla de Lista de Tareas que desarrollé para mejorar mis habilidades en React. Con esta aplicación, puedes agregar nuevas tareas fácilmente, marcarlas como completadas y eliminarlas una vez que las hayas terminado. Utilicé react-icons para que los iconos de las tareas se vean geniales y la biblioteca uuid para asignar a cada tarea un identificador único. Trabajar en este proyecto fue una forma fantástica de aprender más sobre React y crear algo útil para la vida cotidiana.",
@@ -122,7 +122,7 @@
       },
       {
         "id": "011",
-        "image": "src/assets/images/projects/login-and-sign-up-form-using-reactjs.jpg",
+        "image": "/assets/images/projects/login-and-sign-up-form-using-reactjs.jpg",
         "title": "Sign In & Sign Up Form",
         "tech": "HTML5 / CSS3 / JavaScript / React / Vite",
         "description": "Este proyecto presenta un formulario de inicio de sesión y registro construido con ReactJS. Su objetivo principal es aprender y practicar el uso de componentes funcionales en React, así como gestionar props y funciones de manera efectiva. El proyecto utiliza Vite para la configuración del proyecto React. Las características principales incluyen un formulario interactivo de inicio de sesión y registro, y el cambio dinámico entre las funcionalidades de 'Inicio de sesión' y 'Registro' utilizando componentes de React. Se incluyen Bootstrap Icons para mejorar la apariencia visual.",
@@ -131,7 +131,7 @@
       },
       {
         "id": "012",
-        "image": "src/assets/images/projects/team-member-info-form-and-card-generator.jpg",
+        "image": "/assets/images/projects/team-member-info-form-and-card-generator.jpg",
         "title": "Org - Team Management",
         "tech": "HTML5 / CSS3 / JavaScript / React / Vite / Figma",
         "description": "Org es una plataforma fácil de usar que te ayuda a gestionar y organizar tu equipo de manera eficiente. Agrega nuevos miembros con información básica como nombre, posición y foto. Crea equipos personalizados con colores únicos para una rápida identificación y destaca a los miembros favoritos para un acceso rápido. Este proyecto es parte del curso de React de Alura - Oracle, con recursos de Figma e incluye react-icons y uuid.",
@@ -140,7 +140,7 @@
       },
       {
         "id": "013",
-        "image": "src/assets/images/projects/petshop-project-crud-js-async.jpg",
+        "image": "/assets/images/projects/petshop-project-crud-js-async.jpg",
         "title": "Petshop CRUD Project",
         "tech": "HTML5 / CSS3 / JavaScript / API / JSON Server ",
         "description": "Este proyecto es una sencilla aplicación CRUD (Crear, Leer, Actualizar, Eliminar) diseñada para gestionar perfiles de clientes en una tienda de mascotas. El objetivo principal era aprender a realizar operaciones CRUD, interactuar con una API RESTful usando fetch y manejar tareas asincrónicas de manera eficiente con async/await y bloques try-catch. La aplicación te permite crear, leer, actualizar y eliminar perfiles de clientes de manera fluida, manteniendo el código limpio y manejable.",
@@ -149,7 +149,7 @@
       },
       {
         "id": "015",
-        "image": "src/assets/images/projects/petshop-project-react-router-spa.jpg",
+        "image": "/assets/images/projects/petshop-project-react-router-spa.jpg",
         "title": "Pet News Blog",
         "tech": "HTML5 / CSS3 / JavaScript / React / Vite / Axios / React Router / JSON Server",
         "description": "Este proyecto es un blog de noticias de mascotas, parte del curso de React en Alura Latam. Incluye una variedad de artículos sobre noticias relacionadas con mascotas, con una navegación sencilla a través de diferentes categorías y subcategorías. Si llegas a una ruta inexistente, verás una página 404 personalizada. La aplicación utiliza axios para obtener datos, react-router-dom para una navegación fluida y json-server para crear una API REST simulada. Trabajar en este proyecto me ayudó a familiarizarme con los hooks useState y useEffect, React Router y la construcción de una Single Page Application (SPA).",
@@ -158,7 +158,7 @@
       },
       {
         "id": "017",
-        "image": "src/assets/images/projects/smart-bank-react-styled-components.jpg",
+        "image": "/assets/images/projects/smart-bank-react-styled-components.jpg",
         "title": "Smart Bank",
         "tech": "HTML5 / CSS3 / JavaScript / React / Vite / Styled-Components",
         "description": "La aplicación de Smart Bank te permite hacer varias cosas como revisar el saldo de tu cuenta, ver los gastos recientes y cambiar entre temas claros y oscuros. La aplicación utiliza Styled-Components para hacer que el estilo de los componentes de React sea modular y reutilizable. El objetivo principal de este proyecto era practicar con Styled-Components y mejorar mis habilidades en React y JavaScript.",
@@ -167,7 +167,7 @@
       },
       {
         "id": "018",
-        "image": "src/assets/images/projects/form-delivery-food-react.jpg",
+        "image": "/assets/images/projects/form-delivery-food-react.jpg",
         "title": "Delivery Food Form Validation with JavaScript",
         "tech": "HTML5 / CSS3 / JavaScript / React / Vite / Styled-Components / Material UI",
         "description": "Delivery Food Form Validation with JavaScript muestra cómo implementar la validación de formularios en una aplicación React usando JavaScript puro. Este proyecto fue desarrollado para practicar la gestión de estado con useState y mejorar las habilidades de validación de formularios. Incluye funciones personalizadas de JavaScript para la validación de formularios, gestión de estado con useState y un formulario de varios pasos con validación en cada uno.",
@@ -176,7 +176,7 @@
       },
       {
         "id": "019",
-        "image": "src/assets/images/projects/form-react-material-ui-components.jpg",
+        "image": "/assets/images/projects/form-react-material-ui-components.jpg",
         "title": "React Form Validation with React Hook Form",
         "tech": "HTML5 / CSS3 / JavaScript / React / Vite / Styled-Components / React Hook Form / Material UI",
         "description": "React Form Validation muestra cómo implementar la validación de formularios utilizando React Hook Form, styled-components para estilos personalizados y Material-UI para componentes de interfaz de usuario. Presenta técnicas efectivas de validación de formularios a través de React Hook Form, styled-components y Material-UI para diseño responsivo. Este proyecto me permitió practicar React, JavaScript y styled-components, centrándome en aprender métodos eficientes de validación de formularios con React Hook Form.",
@@ -185,7 +185,7 @@
       },
       {
         "id": "021",
-        "image": "src/assets/images/projects/movieshub-react.jpg",
+        "image": "/assets/images/projects/movieshub-react.jpg",
         "title": "MoviesHub",
         "tech": "HTML5 / CSS3 / JavaScript / React / Vite / Styled-Components / React Hook Form / Axios / React Router / JSON Server / Trello",
         "description": "MoviesHub es una aplicación web responsive desarrollada como parte de un desafío durante el curso de React en Alura Latam. El proyecto permite a los usuarios gestionar películas y categorías mediante la adición, edición y eliminación de entradas, todo presentado en una interfaz interactiva y visualmente atractiva. El diseño e implementación de la aplicación siguieron pasos delineados en Trello. Las características principales incluyen sliders sincronizados para películas y categorías, formularios para crear nuevas entradas y carga dinámica de datos desde un servidor JSON. Las tecnologías utilizadas incluyen react-hook-form para el manejo de formularios y react-slick para crear componentes de carrusel/slider en React, además del uso de uuid.",
@@ -194,7 +194,7 @@
       },
       {
         "id": "022",
-        "image": "src/assets/images/projects/task-list-react-ts.jpg",
+        "image": "/assets/images/projects/task-list-react-ts.jpg",
         "title": "Task List App",
         "tech": "HTML5 / CSS3 / JavaScript / React / Vite / TypeScript",
         "description": "Task List App es una aplicación web sencilla desarrollada como proyecto inicial utilizando TypeScript. Permite a los usuarios gestionar tareas añadiendo nuevas y eliminándolas de la lista. Este proyecto tiene como objetivo familiarizar al desarrollador con la sintaxis de TypeScript, las anotaciones de tipos y el uso general dentro de una aplicación React.",
@@ -203,7 +203,7 @@
       },
       {
         "id": "023",
-        "image": "src/assets/images/projects/social-media-dashboard-with-theme-switcher.jpg",
+        "image": "/assets/images/projects/social-media-dashboard-with-theme-switcher.jpg",
         "title": "Social Media Dashboard with Theme Switcher",
         "tech": "HTML5 / CSS3 / JavaScript / React / Vite / Tailwind CSS",
         "description": "Este proyecto es un panel de redes sociales que permite a los usuarios seguir sus seguidores y suscriptores en plataformas como Facebook, Twitter, Instagram y YouTube. El panel incluye un interruptor de temas para alternar entre temas claro y oscuro y mejorar la experiencia del usuario. El diseño es adaptable, garantizando una visualización óptima en diversos dispositivos. Los datos del panel provienen de un archivo JSON y formaron parte del desafío de Frontend Mentor. El objetivo principal fue familiarizarme por primera vez con Tailwind CSS y aprender su implementación.",
@@ -212,7 +212,7 @@
       },
       {
         "id": "035",
-        "image": "src/assets/images/projects/advice-generator-app.jpg",
+        "image": "/assets/images/projects/advice-generator-app.jpg",
         "title": "Advice Generator App",
         "tech": "HTML5 / CSS3 / JavaScript / React / Tailwind / API / Vite",
         "description": "Esta aplicación generadora de consejos, desarrollada como parte del desafío de Frontend Mentor, obtiene y muestra consejos aleatorios de Advice Slip JSON API. Los usuarios pueden obtener fácilmente nuevos consejos con un clic de botón. La aplicación cuenta con una interfaz fácil de usar y está diseñada para ser totalmente responsiva. El objetivo principal de este proyecto fue mejorar las habilidades en el uso de Tailwind CSS y en el consumo de APIs.",
@@ -221,7 +221,7 @@
       },
       {
         "id": "036",
-        "image": "src/assets/images/projects/news-homepage.jpg",
+        "image": "/assets/images/projects/news-homepage.jpg",
         "title": "News Website",
         "tech": "HTML5 / CSS3 / JavaScript / React / Tailwind / React Icons / Vite",
         "description": "Este proyecto es un sitio web de noticias responsivo que incluye una sección destacada para artículos principales, resaltando noticias importantes, un contenedor dinámico de noticias mostrando los artículos más recientes, y una sección con los artículos más populares. La creación de este sitio web tuvo como objetivo principal mejorar en el uso de Tailwind CSS, una habilidad que estaba comenzando a desarrollar. Fue desarrollado como parte del desafío de Frontend Mentor.",
@@ -230,7 +230,7 @@
       },
       {
         "id": "038",
-        "image": "src/assets/images/projects/sunnyside-agency-landing-page.jpg",
+        "image": "/assets/images/projects/sunnyside-agency-landing-page.jpg",
         "title": "Sunnyside Agency Landing Page",
         "tech": "HTML5 / CSS3 / JavaScript / React / Tailwind / React Icons / Vite",
         "description": "Este proyecto es una página de inicio responsiva para Sunnyside Agency, creada como parte del desafío de Frontend Mentor. Incluye un encabezado completo con menú de navegación, una página principal atractiva, descripciones detalladas de servicios, testimonios de clientes, una galería dinámica que muestra su trabajo y un pie de página con enlaces adicionales e integración de redes sociales. La página de inicio está diseñada para ofrecer un diseño visual atractivo y contenido informativo en diferentes dispositivos.",
@@ -239,7 +239,7 @@
       },
       {
         "id": "040",
-        "image": "src/assets/images/projects/food-delivery-app-responsive.jpg",
+        "image": "/assets/images/projects/food-delivery-app-responsive.jpg",
         "title": "Food Delivery App",
         "tech": "HTML5 / CSS3 / JavaScript / React / Tailwind CSS/ React Icons / Vite",
         "description": "Food Delivery App es una aplicación web que permite a los usuarios explorar una gran variedad de opciones de comida, ver información detallada de cada artículo, agregarlos a su carrito y proceder al pago. Los usuarios pueden navegar fácilmente por diferentes categorías de alimentos, gestionar su carrito añadiendo o eliminando artículos, y ver el monto total a pagar. La aplicación está diseñada para ofrecer una experiencia fluida y responsiva en todos los dispositivos.",
