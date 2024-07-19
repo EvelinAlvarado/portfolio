@@ -12,7 +12,7 @@ export const CardProject = ({ project, index }) => {
     >
       <div className={`w-full ${cardIsEven && "lg:order-last"}`}>
         <img
-          className="rounded-t-xl w-full h-auto object-cover"
+          className="rounded-t-xl w-full h-auto object-cover lg:rounded-xl"
           src={project.image}
           alt={project.title}
         />

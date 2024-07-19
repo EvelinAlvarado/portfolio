@@ -6,7 +6,7 @@ export const About = () => {
   const { translations } = useLanguage();
   return (
     <div className="flex flex-col mx-[10%] overflow-hidden h-full lg:grid lg:grid-cols-3 lg:gap-12 lg:flex-row">
-      <h1 className="text-[16vw] font-CormorantGaramond font-medium tracking-tight mb-3 titleAnimate sticky top-0 bg-beige dark:bg-dark lg:text-[8vw]">
+      <h1 className="text-[16vw] font-CormorantGaramond font-medium tracking-tight mb-3 titleAnimate sticky top-0 bg-beige dark:bg-dark lg:text-[8vw] 2xl:text-[150px]">
         {translations.about.title}
       </h1>
       <div className="flex-1 overflow-auto mb-4 sm:mb-0 lg:col-span-2 lg:overflow-auto">
