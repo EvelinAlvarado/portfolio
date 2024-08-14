@@ -67,7 +67,7 @@ export const About = () => {
           HTML / CSS / JavaScript / React / Styled-components / Tailwind CSS /
           React Router DOM / Git / Github / Visual Studio Code
         </p>
-        <Link to="/about/evelin_alvarado_resume.pdf" target="_blank">
+        <Link to="/resume-evelin-alvarado.pdf" target="_blank">
           <button className="text-[16px] tracking-[1px] font-CormorantGaramond bg-dark text-beige dark:bg-beige dark:text-dark py-2 px-4 rounded-full hover:px-[30px] transition-all duration-300 my-7 shadow-md inline-flex items-center sm:text-[18px]">
             My CV <GoDownload className="ml-1" />
           </button>
