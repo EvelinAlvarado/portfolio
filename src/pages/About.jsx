@@ -64,8 +64,10 @@ export const About = () => {
           Skills
         </h2>
         <p className="text-[12px] leading-6 tracking-[1px] sm:text-[13px]">
-          HTML / CSS / JavaScript / React / Styled-components / Tailwind CSS /
-          React Router DOM / Git / Github / Visual Studio Code
+          HTML / CSS / JavaScript / React JS / Tailwind CSS / Styled-components
+          / Material UI / React Router DOM / Git / Github / Visual Studio Code /
+          Responsive Web Design / RESTful APIs / Trello / Agile-Scrum
+          Methodologies
         </p>
         <Link to="/resume-evelin-alvarado.pdf" target="_blank">
           <button className="text-[16px] tracking-[1px] font-CormorantGaramond bg-dark text-beige dark:bg-beige dark:text-dark py-2 px-4 rounded-full hover:px-[30px] transition-all duration-300 my-7 shadow-md inline-flex items-center sm:text-[18px]">
