@@ -245,6 +245,15 @@
         "description": "Food Delivery App es una aplicación web que permite a los usuarios explorar una gran variedad de opciones de comida, ver información detallada de cada artículo, agregarlos a su carrito y proceder al pago. Los usuarios pueden navegar fácilmente por diferentes categorías de alimentos, gestionar su carrito añadiendo o eliminando artículos, y ver el monto total a pagar. La aplicación está diseñada para ofrecer una experiencia fluida y responsiva en todos los dispositivos.",
         "github": "https://github.com/EvelinAlvarado/food-delivery-app-responsive",
         "live_project": "https://food-delivery-app-responsive.vercel.app/"
+      },
+      {
+        "id": "042",
+        "image": "/assets/images/projects/hagman-game.gif",
+        "title": "Hagman Game",
+        "tech": "HTML5 / CSS3 / JavaScript / React / Tailwind CSS / TypeScript / Vite",
+        "description": "Este proyecto fue desarrollado como una manera de practicar TypeScript mientras trabajaba en un entorno React. Los usuarios pueden interactuar con el juego adivinando letras ya sea con el teclado o haciendo clic en los botones, y recibir retroalimentación inmediata basada en su rendimiento. El juego está diseñado para ofrecer una experiencia dinámica y adaptable, ajustándose a diferentes tamaños de pantalla, e incluye la generación aleatoria de palabras para cada sesión.",
+        "github": "https://github.com/EvelinAlvarado/hangman-game-ts",
+        "live_project": "https://hangman-game-ts-eosin.vercel.app/"
       }
     ]
   }
