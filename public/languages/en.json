@@ -247,6 +247,15 @@
         "live_project": "https://food-delivery-app-responsive.vercel.app/"
       },
       {
+        "id": "041",
+        "image": "/assets/images/projects/portfolio-project.gif",
+        "title": "Portfolio",
+        "tech": "HTML5 / CSS3 / JavaScript / React / Tailwind CSS / React Icons / Vite / API / Axios / Styled-Components / Material UI",
+        "description": "This portfolio showcases my web development projects and skills. It features a modern, responsive design with smooth animations, a home page with an introduction, an about page, a projects page with live demo links, and a contact page with a form. It also includes a dark mode toggle for user preference.",
+        "github": "https://github.com/EvelinAlvarado/portfolio",
+        "live_project": "https://evelinalvarado.vercel.app/"
+      },
+      {
         "id": "042",
         "image": "/assets/images/projects/hagman-game.gif",
         "title": "Hagman Game",
