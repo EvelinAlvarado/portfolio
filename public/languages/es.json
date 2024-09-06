@@ -245,6 +245,24 @@
         "description": "Food Delivery App es una aplicación web que permite a los usuarios explorar una gran variedad de opciones de comida, ver información detallada de cada artículo, agregarlos a su carrito y proceder al pago. Los usuarios pueden navegar fácilmente por diferentes categorías de alimentos, gestionar su carrito añadiendo o eliminando artículos, y ver el monto total a pagar. La aplicación está diseñada para ofrecer una experiencia fluida y responsiva en todos los dispositivos.",
         "github": "https://github.com/EvelinAlvarado/food-delivery-app-responsive",
         "live_project": "https://food-delivery-app-responsive.vercel.app/"
+      },
+      {
+        "id": "041",
+        "image": "/assets/images/projects/portfolio-project.gif",
+        "title": "Portfolio",
+        "tech": "HTML5 / CSS3 / JavaScript / React / Tailwind CSS / React Icons / Vite / API / Axios / Styled-Components / Material UI",
+        "description": "Este portfolio fue diseñado para mostrar mis proyectos y habilidades en desarrollo web. Con un diseño moderno y adaptable a cualquier dispositivo, encontrarás una página de inicio con una breve presentación, una sección sobre mí, una galería de mis proyectos recientes con enlaces, y una página de contacto con un formulario fácil de usar. Además, puedes cambiar entre modo claro y oscuro según tu preferencia.",
+        "github": "https://github.com/EvelinAlvarado/portfolio",
+        "live_project": "https://evelinalvarado.vercel.app/"
+      },
+      {
+        "id": "043",
+        "image": "/assets/images/projects/e-commerce-application.png",
+        "title": "E-commerce FashionHub",
+        "tech": "HTML5 / CSS3 / JavaScript / TypeScript / React / Tailwind CSS / React Hook Form / Material UI / Vite / Firestore",
+        "description": "Desarrollé una plataforma de comercio electrónico simple para practicar la creación de tiendas en línea. Usando Firebase por primera vez, me centré en el almacenamiento y la recuperación de datos, incluyendo la gestión de listados de productos, interacciones de usuarios y gestión de pedidos. Este proyecto fue una excelente oportunidad para aprender Firebase y mejorar mis habilidades en la integración de bases de datos en tiempo real en mis proyectos.",
+        "github": "https://github.com/EvelinAlvarado/e-commerce-react-firebase",
+        "live_project": "https://e-commerce-react-firebase-two.vercel.app/"
       }
     ]
   }
