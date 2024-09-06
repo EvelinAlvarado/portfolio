@@ -245,15 +245,6 @@
         "description": "Food Delivery App es una aplicación web que permite a los usuarios explorar una gran variedad de opciones de comida, ver información detallada de cada artículo, agregarlos a su carrito y proceder al pago. Los usuarios pueden navegar fácilmente por diferentes categorías de alimentos, gestionar su carrito añadiendo o eliminando artículos, y ver el monto total a pagar. La aplicación está diseñada para ofrecer una experiencia fluida y responsiva en todos los dispositivos.",
         "github": "https://github.com/EvelinAlvarado/food-delivery-app-responsive",
         "live_project": "https://food-delivery-app-responsive.vercel.app/"
-      },
-      {
-        "id": "042",
-        "image": "/assets/images/projects/e-commerce-application.png",
-        "title": "E-commerce FashionHub",
-        "tech": "HTML5 / CSS3 / JavaScript / TypeScript / React / Tailwind CSS / React Hook Form / Material UI / Vite / Firestore",
-        "description": "Desarrollé una plataforma de comercio electrónico simple para practicar la creación de tiendas en línea. Usando Firebase por primera vez, me centré en el almacenamiento y la recuperación de datos, incluyendo la gestión de listados de productos, interacciones de usuarios y gestión de pedidos. Este proyecto fue una excelente oportunidad para aprender Firebase y mejorar mis habilidades en la integración de bases de datos en tiempo real en mis proyectos.",
-        "github": "https://github.com/EvelinAlvarado/e-commerce-react-firebase",
-        "live_project": "https://e-commerce-react-firebase-two.vercel.app/"
       }
     ]
   }
