@@ -266,7 +266,7 @@
       },
       {
         "id": "045",
-        "image": "/assets/images/projects/e-commerce-application.png",
+        "image": "/assets/images/projects/memories-album-app.jpg",
         "title": "Memories Album App",
         "tech": "HTML5 / CSS3 / JavaScript / TypeScript / React / Tailwind CSS / Firestore / API / Axios / React Router / React Hook Form / Material UI / Figma / Vite ",
         "description": "The Memories Album App is built with React and TypeScript, allowing users to organize and display photo albums, filter images by categories, and add new photos through a form. The deployed version uses Firestore for data management, while the local development branch uses JSON Server. The app's design is inspired by a Figma project, where I used the developer mode to guide the implementation.",
