@@ -263,6 +263,15 @@
         "description": "Desarrollé una plataforma de comercio electrónico simple para practicar la creación de tiendas en línea. Usando Firebase por primera vez, me centré en el almacenamiento y la recuperación de datos, incluyendo la gestión de listados de productos, interacciones de usuarios y gestión de pedidos. Este proyecto fue una excelente oportunidad para aprender Firebase y mejorar mis habilidades en la integración de bases de datos en tiempo real en mis proyectos.",
         "github": "https://github.com/EvelinAlvarado/e-commerce-react-firebase",
         "live_project": "https://e-commerce-react-firebase-two.vercel.app/"
+      },
+      {
+        "id": "045",
+        "image": "/assets/images/projects/e-commerce-application.png",
+        "title": "Memories Album App",
+        "tech": "HTML5 / CSS3 / JavaScript / TypeScript / React / Tailwind CSS / Firestore / API / Axios / React Router / React Hook Form / Material UI / Figma / Vite ",
+        "description": "El Memories Album App es una aplicación desarrollada con React y TypeScript que permite a los usuarios organizar y mostrar álbumes de fotos, filtrar imágenes por categorías, y agregar nuevas fotos mediante un formulario. La versión desplegada utiliza Firestore para gestionar los datos, mientras que la rama de desarrollo local usa JSON Server. El diseño de la aplicación está inspirado en un proyecto de Figma, usando el developer mode para implementarlo.",
+        "github": "https://github.com/EvelinAlvarado/memories-album-app",
+        "live_project": "https://memorylane-album-app.vercel.app/"
       }
     ]
   }
