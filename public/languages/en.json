@@ -272,6 +272,15 @@
         "description": "The Memories Album App is built with React and TypeScript, allowing users to organize and display photo albums, filter images by categories, and add new photos through a form. The deployed version uses Firestore for data management, while the local development branch uses JSON Server. The app's design is inspired by a Figma project, where I used the developer mode to guide the implementation.",
         "github": "https://github.com/EvelinAlvarado/memories-album-app",
         "live_project": "https://memorylane-album-app.vercel.app/"
+      },
+      {
+          "id": "047",
+          "image": "/assets/images/projects/camp-travel-project.png",
+          "title": "Travel Camp Landing Page",
+          "tech": "HTML5 / CSS3 / JavaScript / TypeScript / React / Tailwind CSS / Next.js / Jest / Testing Library",
+          "description": "The Travel Camp Landing Page is a sample app for camping and nature lovers, showcasing a responsive design built with Next.js. This project helped me practice Jest and Testing Library for testing while exploring Tailwind CSS for modern styling. The landing page is fully responsive and uses reusable components for better maintainability.",
+          "github": "https://github.com/EvelinAlvarado/travel-camp-app-nextjs",
+          "live_project": "https://travel-camp-app-nextjs.vercel.app/"
       }
     ]
   }
