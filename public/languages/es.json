@@ -281,6 +281,15 @@
         "description": "Travel Camp es una aplicación de muestra para los amantes del campamento y la naturaleza, mostrando un diseño responsive creado con Next.js. Este proyecto me ayudó a practicar Jest y Testing Library para las pruebas, mientras usaba Tailwind CSS para un estilo moderno. La página es totalmente responsiva y utiliza componentes reutilizables para una mejor mantenibilidad.",
         "github": "https://github.com/EvelinAlvarado/travel-camp-app-nextjs",
         "live_project": "https://travel-camp-app-nextjs.vercel.app/"
+      },
+      {
+        "id": "049",
+        "image": "/assets/images/projects/personal-budget-assistant.gif",
+        "title": "Personal Budget Assistant",
+        "tech": "React / Material-UI / Recharts / Nanostores / Axios / API",
+        "description": "Personal Budget Assistant es una aplicación diseñada para ayudar a los usuarios a realizar un seguimiento de sus gastos, gestionar presupuestos y visualizar su estado financiero a través de gráficos interactivos. Desarrollada durante la hackathon de Nuwe y CaixaBank Tech, este proyecto me permitió implementar componentes responsivos y reutilizables, centrándome en ofrecer una experiencia de usuario fluida. Fue un gran desafío y aprendizaje utilizando herramientas modernas como Recharts.",,
+        "github": "https://github.com/EvelinAlvarado/hackathon-caixabank-frontend-react-finassist",
+        "live_project": "https://hackathon-caixabank.vercel.app/login/"
       }
     ]
   }
