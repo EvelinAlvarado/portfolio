@@ -287,7 +287,7 @@
         "image": "/assets/images/projects/personal-budget-assistant-project.gif",
         "title": "Personal Budget Assistant",
         "tech": "React / Material-UI / Recharts / Nanostores / Axios / API",
-        "description": "Personal Budget Assistant es una aplicación diseñada para ayudar a los usuarios a realizar un seguimiento de sus gastos, gestionar presupuestos y visualizar su estado financiero a través de gráficos interactivos. Desarrollada durante la hackathon de Nuwe y CaixaBank Tech, este proyecto me permitió implementar componentes responsivos y reutilizables, centrándome en ofrecer una experiencia de usuario fluida. Fue un gran desafío y aprendizaje utilizando herramientas modernas como Recharts.",,
+        "description": "Personal Budget Assistant es una aplicación diseñada para ayudar a los usuarios a realizar un seguimiento de sus gastos, gestionar presupuestos y visualizar su estado financiero a través de gráficos interactivos. Desarrollada durante la hackathon de Nuwe y CaixaBank Tech, este proyecto me permitió implementar componentes responsivos y reutilizables, centrándome en ofrecer una experiencia de usuario fluida. Fue un gran desafío y aprendizaje utilizando herramientas modernas como Recharts.",
         "github": "https://github.com/EvelinAlvarado/hackathon-caixabank-frontend-react-finassist",
         "live_project": "https://hackathon-caixabank.vercel.app/login/"
       }
