@@ -283,14 +283,14 @@
           "live_project": "https://travel-camp-app-nextjs.vercel.app/"
       },
       {
-  "id": "049",
-  "image": "/assets/images/projects/personal-budget-assistant.gif",
-  "title": "Personal Budget Assistant",
-  "tech": "React / Material-UI / Recharts / Nanostores / Axios / API",
-  "description": "The Personal Budget Assistant is a user-friendly app designed to help individuals track their expenses, manage budgets, and visualize financial health through interactive charts. Built during the Nuwe & CaixaBank Tech Hackathon, this project challenged me to implement responsive and reusable components while focusing on delivering a seamless user experience. It was an incredible learning journey with modern tools like Recharts.",
-  "github": "https://github.com/EvelinAlvarado/hackathon-caixabank-frontend-react-finassist",
-  "live_project": "https://hackathon-caixabank.vercel.app/login/"
-}
+        "id": "049",
+        "image": "/assets/images/projects/personal-budget-assistant.gif",
+        "title": "Personal Budget Assistant",
+        "tech": "React / Material-UI / Recharts / Nanostores / Axios / API",
+        "description": "The Personal Budget Assistant is a user-friendly app designed to help individuals track their expenses, manage budgets, and visualize financial health through interactive charts. Built during the Nuwe & CaixaBank Tech Hackathon, this project challenged me to implement responsive and reusable components while focusing on delivering a seamless user experience. It was an incredible learning journey with modern tools like Recharts.",
+        "github": "https://github.com/EvelinAlvarado/hackathon-caixabank-frontend-react-finassist",
+        "live_project": "https://hackathon-caixabank.vercel.app/login/"
+      }
     ]
   }
 }
