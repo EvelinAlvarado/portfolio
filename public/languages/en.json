@@ -290,6 +290,15 @@
         "description": "The Personal Budget Assistant is a user-friendly app designed to help individuals track their expenses, manage budgets, and visualize financial health through interactive charts. Built during the Nuwe & CaixaBank Tech Hackathon, this project challenged me to implement responsive and reusable components while focusing on delivering a seamless user experience. It was an incredible learning journey with modern tools like Recharts.",
         "github": "https://github.com/EvelinAlvarado/hackathon-caixabank-frontend-react-finassist",
         "live_project": "https://hackathon-caixabank.vercel.app/login/"
+      },
+      {
+        "id": "050",
+        "image": "/assets/images/projects/digital-prescription.png",
+        "title": "Digital Prescription",
+        "tech": "HTML5 / CSS3 / JavaScript / React / TypeScript / Next.js / Tailwind CSS / shadcn/ui / Material-UI / Zod / React Hook Form / JSON Server / Axios",
+        "description": "Digital Prescription is a web application designed to streamline the management of medical prescriptions. It features dynamic dashboards for doctors, pharmacists, and patients, enabling easy creation, search, and management of prescriptions. The project was initiated during the ContCode hackathon and continued independently, adding additional features such as customizable lists.",
+        "github": "https://github.com/EvelinAlvarado/digital-prescription",
+        "live_project": "https://github.com/EvelinAlvarado/digital-prescription"
       }
     ]
   }
